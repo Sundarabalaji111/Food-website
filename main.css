@@ -1,0 +1,248 @@
+*{
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-X: hidden;
+    box-sizing: border-box;
+}
+
+.custom-nav-link{
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.food-logo{
+    width: 80px;
+    height: 60px;
+    margin-left: 60px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.nav-link:hover{
+    background-color: green;
+    font-size: 27px;
+}
+
+.nav-link:focus{
+    border: green;
+}
+
+.banner-bg-container{
+    background-image: url("https://images2.alphacoders.com/132/1322098.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.banner-head{
+    font-size: 55px;
+    color: aliceblue;
+}
+
+.banner-title{
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.custom-btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.custom-outline-btn{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: yellow;
+    border-color: yellow;
+}
+
+.wcu-section{
+    background-color: #f9fbfe;
+}
+
+.wcu-heading{
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    color: #183b56;
+}
+
+.wcu-description{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #5a7184;
+}
+
+.wcu-card{
+    background-color: #fff;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-image{
+    width: 100px;
+    padding-bottom: -20px;
+}
+
+.menu-item-image{
+    width: 300px;
+}
+
+.menu-section-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-card-title{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu-item-link{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: red;
+    background-color: yellow;
+}
+
+.container{
+    display: flex;
+}
+
+.menu-item-card{
+    background-color: #ffffff;
+    padding: 10px;
+    width: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.contact h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.chart{
+    text-align: center;
+    
+}
+
+.chart h5{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.chart p{
+    font-size: 18px;
+ 
+}
+
+.chart .under{
+    font-size: 18px;
+   
+    color: orangered;
+}
+
+.office{
+    text-align: center;
+   
+}
+
+.office h5{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.office p{
+    font-size: 18px;
+    
+}
+
+.phone{
+    text-align: center;
+    
+}
+
+.phone h5{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.phone p{
+    font-size: 18px;
+ 
+}
+
+.phone .under{
+    font-size: 18px;
+    
+    color: orangered;
+}
+
+@media (min-width:700px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .explore-menu-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:539px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        overflow: auto;
+    }
+}
+
+.contact-detail h1{
+    padding: 20px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.contact-detail{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.cards{
+    display: flex;
+    overflow-y: scroll;
+}
+
+.cards::-webkit-scrollbar{
+    display: none;
+}
+
